@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">NAME</div>
+      <nav>
+        <a href="#">Contact</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Dask</h1>
+    <img src="https://via.placeholder.com/300x200" alt="Featured Product" />
+  </section>
+
+  <section class="products">
+    <h2>Products</h2>
+    <div class="product-list">
+      <div class="product">
+        <p>Description</p>
+        <p>Price: $1090</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="product">
+        <p>Description</p>
+        <p>Price: $899</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="product">
+        <p>Description</p>
+        <p>Price: $599</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
